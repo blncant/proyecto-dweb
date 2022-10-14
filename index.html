@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ponic GreenLab</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/mediaqueries.css" />
+		<link rel="icon" type="image/x-icon" href="./assets/img/icon.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header__bg">
+			<div class="header">
+				<a href="#hero">
+					<img class="header__logo" src="./assets/img/logo.png" alt="Logo de Ponic" />
+				</a>
+
+				<nav class="navbar">
+					<!-- MenuHamb -->
+					<label for="menu-toggle">
+						<i class="fas fa-bars" title="Menu"></i>
+					</label>
+					<input type="checkbox" id="menu-toggle" class="menu-toggle" />
+					<ul class="navbar__list navbar__toggle">
+						<li class="navbar__item"><a class="navbar__link" href="#hero">home</a></li>
+						<li class="navbar__item"><a class="navbar__link" href="#features">funciones</a></li>
+						<li class="navbar__item"><a class="navbar__link" href="#discover">categorías</a></li>
+						<li class="navbar__item"><a class="navbar__link" href="#contact">contacto</a></li>
+					</ul>
+
+					<div class="navbar__icons">
+						<!-- <label for="cart-toggle">
+						</label>
+						<input type="checkbox" id="cart-toggle" class="cart-toggle" />
+						<div class="notif__toggle">
+							<div class="grid__card">
+								<img class="gcard__img" src="./assets/img/frutilla.jpg" alt="Foto Frutillas" />
+								<div class="gcard__content">
+									<h4 class="gcard__category">Especie</h4>
+									<h3 class="gcard__name">Nombre</h3>
+									<p class="gcard__tips">Recomendaciones</p>
+									<div class="gcard__btns">
+										<a class="gcard__add" href="#">Agregar </a>
+										<img
+											class="gcard__save"
+											src="./assets/icons/bookmark-regular.svg"
+											alt="Guardar"
+										/>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						<a href="#" title="Alertas">
+							<i class="fa-solid fa-bell"></i>
+						</a>
+
+						<a href="./pages/login.html" title="Ingresar">
+							<i class="fa-solid fa-circle-user"></i>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!-- Hero -->
+			<section id="hero">
+				<div class="hero">
+					<h3 class="hero__subtitle">Plantemos algo juntos 👩🏻‍🌾</h3>
+					<h1 class="hero__title">Tu camino para convertirte en un <span>Smart Gardener </span></h1>
+					<div class="hero__buttons">
+						<a class="btn btn--join" href="./pages/register.html">Registrate</a>
+						<a class="btn btn--mas" href="#features">Ver más </a>
+					</div>
+				</div>
+			</section>
+			<!-- Features -->
+			<section id="features">
+				<div class="features__info">
+					<h2 class="section__title finfo__title">Programá tu <span>AsistentePonic 🤖</span></h2>
+					<p class="section__text finfo__text">
+						Y crea rutinas personalizadas con recordatorios para mantener el cuidado de tus plantas
+						automatizado.
+					</p>
+				</div>
+
+				<div class="features__container">
+					<div class="features__card">
+						<h4 class="fcard__emoticon">🕹️</h4>
+						<h3 class="fcard__title">Monitoreo</h3>
+						<p class="fcard__info">
+							Herramienta intuitiva que te ayuda a cuidar tu jardín de manera conveniente, rápida y a
+							tiempo.
+						</p>
+					</div>
+					<div class="features__card">
+						<h4 class="fcard__emoticon">💡</h4>
+						<h3 class="fcard__title">Consejos</h3>
+						<p class="fcard__info">
+							Encontrá información sobre: germinación, materiales, sustratos, riego, requisitos de agua y
+							luz, temperatura, suelo, plagas, siembra, abonos y más.
+						</p>
+					</div>
+					<div class="features__card">
+						<h4 class="fcard__emoticon">🗓️</h4>
+						<h3 class="fcard__title">Informes Diarios</h3>
+						<p class="fcard__info">
+							Seguí el progreso de tus plantas de interior y exterior, recibí notificaciones en tiempo
+							real sobre humedad, condiciones climáticas, nutrientes, y otros requisitos.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- Discover -->
+
+			<section id="discover">
+				<h2 class="section__title discover__title">Plant. Grow. Repeat. 🐞</h2>
+				<p class="section__text">Encontrá todo lo que necesitás para cultivar tus plantas en casa.</p>
+				<div class="discover__categorias">
+					<button class="category">Todos</button>
+					<button class="category">Populares</button>
+					<button class="category">Vegetales</button>
+					<button class="category">Flores</button>
+					<button class="category">Microgreens</button>
+					<button class="category">Frutales</button>
+				</div>
+
+				<div class="discover__grid">
+					<div class="grid__card">
+						<img class="gcard__img" src="./assets/img/flores.jpg" alt="Foto Flores" />
+						<div class="gcard__content">
+							<h4 class="gcard__category">Flores</h4>
+							<h3 class="gcard__name">Nombre</h3>
+							<p class="gcard__tips">Recomendaciones</p>
+							<div class="gcard__btns">
+								<a class="gcard__add" href="#">Agregar</a>
+								<a class="gcard__save" href="#">
+									<i class="fa-solid fa-bookmark" title="Guardar"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid__card">
+						<img class="gcard__img" src="./assets/img/frutilla.jpg" alt="Foto Frutillas" />
+						<div class="gcard__content">
+							<h4 class="gcard__category">Frutas</h4>
+							<h3 class="gcard__name">Nombre</h3>
+							<p class="gcard__tips">Recomendaciones</p>
+							<div class="gcard__btns">
+								<a class="gcard__add" href="#">Agregar</a>
+								<a class="gcard__save" href="#">
+									<i class="fa-solid fa-bookmark" title="Guardar"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid__card">
+						<img class="gcard__img" src="./assets/img/uva.jpg" alt="Foto Uvas" title="Guardar" />
+						<div class="gcard__content">
+							<h4 class="gcard__category">Arboles</h4>
+							<h3 class="gcard__name">Nombre</h3>
+							<p class="gcard__tips">Recomendaciones</p>
+							<div class="gcard__btns">
+								<a class="gcard__add" href="#">Agregar</a>
+								<a class="gcard__save" href="#">
+									<i class="fa-solid fa-bookmark" title="Guardar"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid__card">
+						<img
+							class="gcard__img"
+							src="./assets/img/microgreens.jpg"
+							alt="Foto Microgreens"
+							title="Guardar"
+						/>
+						<div class="gcard__content">
+							<h4 class="gcard__category">Aromáticas</h4>
+							<h3 class="gcard__name">Nombre</h3>
+							<p class="gcard__tips">Recomendaciones</p>
+							<div class="gcard__btns">
+								<a class="gcard__add" href="#">Agregar</a>
+								<a class="gcard__save" href="#">
+									<i class="fa-solid fa-bookmark" title="Guardar"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid__card">
+						<img class="gcard__img" src="./assets/img/brotes.jpg" alt="Foto Brotes" />
+						<div class="gcard__content">
+							<h4 class="gcard__category">Microgreens</h4>
+							<h3 class="gcard__name">Nombre</h3>
+							<p class="gcard__tips">Recomendaciones</p>
+							<div class="gcard__btns">
+								<a class="gcard__add" href="#">Agregar</a>
+								<a class="gcard__save" href="#">
+									<i class="fa-solid fa-bookmark" title="Guardar"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid__card">
+						<img class="gcard__img" src="./assets/img/tomate.jpg" alt="Foto Tomates" />
+						<div class="gcard__content">
+							<h4 class="gcard__category">Hortalizas</h4>
+							<h3 class="gcard__name">Nombre</h3>
+							<p class="gcard__tips">Recomendaciones</p>
+							<div class="gcard__btns">
+								<a class="gcard__add" href="#">Agregar</a>
+								<a class="gcard__save" href="#">
+									<i class="fa-solid fa-bookmark" title="Guardar"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact">
+				<div class="contact__info">
+					<h2 class="contact__title">Contacto</h2>
+
+					<div class="contact__email">
+						<a href="#" class="contact__link" alt="Icono Email">
+							<i class="fa-regular fa-paper-plane"></i>
+						</a>
+						<a class="contact__item contact__link" href="#">hello@ponic.com.ar</a>
+					</div>
+					<div class="social__icons">
+						<a href="#" class="contact__link" alt="Icono Pinterest">
+							<i class="fa-brands fa-pinterest"></i>
+						</a>
+						<a href="#" class="contact__link" alt="Icono Instagram">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+						<a href="#" class="contact__link" alt="Icono Tiktok">
+							<i class="fa-brands fa-tiktok"></i>
+						</a>
+					</div>
+				</div>
+				<form class="contact__form">
+					<h5 class="contact__text">Soporte</h5>
+					<input class="form__input" type="text" placeholder="Nombre" />
+					<input class="form__input" type="email" placeholder="Email" required />
+					<textarea class="form__input" name="mensaje" cols="30" rows="5" placeholder="Mensaje"></textarea>
+					<label class="contact__item">
+						<input type="checkbox" /> <span>Suscribite a nuestro Newsletter</span>
+					</label>
+					<button class="btn btn__send" type="submit">Enviar</button>
+				</form>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<ul class="footer__list">
+				<li><a class="footer__title contact__link" href="#">Preguntas Frecuentes</a></li>
+				<li><a class="footer__title contact__link" href="#">Politica de Privacidad</a></li>
+				<li><a class="footer__title contact__link" href="#">Términos de Uso</a></li>
+			</ul>
+			<h5 class="footer__title"><span>©2022 Ponic GreenLab.</span> Todos los derechos reservados.</h5>
+		</footer>
+	</body>
+</html>
